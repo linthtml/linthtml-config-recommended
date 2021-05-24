@@ -22,7 +22,10 @@ module.exports = {
     ],
     "attr-no-dup": true,
     "attr-no-unsafe-char": true,
-    "attr-quote-style": "double",
+    "attr-quote-style": [
+      true,
+      "double"
+    ],
     "attr-req-value": true,
     "attr-validate": true,
     "class-no-dup": true,
