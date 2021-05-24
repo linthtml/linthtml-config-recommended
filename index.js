@@ -84,6 +84,9 @@ module.exports = {
       "always"
     ],
     "title-no-dup": true,
-    "title-max-len": 60
+    "title-max-len": [
+      true,
+      60
+    ],
   }
 };
