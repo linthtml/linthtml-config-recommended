@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "eslint:recommended",
-    "standard"
-  ],
+  "extends": ["eslint:recommended", "standard"],
   "env": {
     "node": true,
     "es6": true
@@ -17,23 +14,11 @@
   },
   "rules": {
     "camelcase": "off",
-    "quotes": [
-      "error",
-      "double"
-    ],
-    "semi": [
-      "error",
-      "always"
-    ],
-    "array-element-newline": [
-      "error",
-      "consistent"
-    ],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "array-element-newline": ["error", "consistent"],
     "no-var": "error",
     "newline-per-chained-call": "error",
-    "space-before-function-paren": [
-      "error",
-      "never"
-    ]
+    "space-before-function-paren": ["error", "never"]
   }
 }
