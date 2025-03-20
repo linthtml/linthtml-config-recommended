@@ -16,22 +16,19 @@ module.exports = {
         "width"
       ]
     ],
-    "attr-name-style": [
-      true,
-      "dash"
-    ],
+    "attr-name-style": [true, "dash"],
     "attr-no-dup": true,
     "attr-no-unsafe-char": true,
-    "attr-quote-style": [
-      true,
-      "double"
-    ],
+    "attr-quote-style": [true, "double"],
     "attr-req-value": true,
     "attr-validate": true,
+    "button-req-content": true,
     "class-no-dup": true,
     "doctype-first": "warning",
     "doctype-html5": true,
+    "fieldset-contains-legend": true,
     "fig-req-figcaption": true,
+    "focusable-tabindex-style": true,
     "head-req-title": true,
     "head-valid-content-model": true,
     "html-req-lang": true,
@@ -39,22 +36,16 @@ module.exports = {
     "id-no-dup": true,
     "img-req-alt": true,
     "img-req-src": true,
-    "indent-style": [
-      true,
-      "spaces"
-    ],
-    "indent-width": [
-      true,
-      4
-    ],
+    "indent-style": [true, "spaces"],
+    "indent-width": [true, 4],
+    "input-btn-req-value-or-title": true,
     "input-radio-req-name": true,
     "input-req-label": true,
-    "line-max-len": [
-      true,
-      100
-    ],
+    "line-max-len": [true, 100],
     "line-no-trailing-whitespace": true,
     "link-req-noopener": true,
+    "table-req-caption": true,
+    "table-req-header": true,
     "tag-bans": [
       true,
       [
@@ -79,14 +70,16 @@ module.exports = {
     "tag-close": true,
     "tag-name-lowercase": true,
     "tag-name-match": true,
-    "tag-self-close": [
+    "tag-req-attr": [
       true,
-      "always"
+      {
+        a: {
+          name: "href"
+        }
+      }
     ],
+    "tag-self-close": [true, "always"],
     "title-no-dup": true,
-    "title-max-len": [
-      true,
-      60
-    ],
+    "title-max-len": [true, 60]
   }
 };
