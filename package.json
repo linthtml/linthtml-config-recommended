@@ -1,6 +1,6 @@
 {
   "name": "@linthtml/linthtml-config-recommended",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Recommended shareable config for linthtml",
   "keywords": [
     "linthtml",
